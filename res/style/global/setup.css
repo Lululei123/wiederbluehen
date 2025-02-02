@@ -50,6 +50,12 @@ a {
     box-sizing: border-box;
 }
 
+#intro {
+    text-align: center;
+    margin: 0 20%;
+    margin-top: 1rem;
+}
+
 .row::after {
     content: "";
     clear: both;
@@ -106,6 +112,12 @@ a {
 }
 
 @media (max-width: 768px) {
+    #intro {
+        text-align: center;
+        margin: 0 10%;
+        margin-top: 1rem;
+    }
+    
     .col-s-1 {
         width: 8.33%;
         float: left;
@@ -157,6 +169,12 @@ a {
 }
 
 @media (max-width: 525px) {
+    #intro {
+        text-align: center;
+        margin: 0 6%;
+        margin-top: 1rem;
+    }
+
     .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
         width: 100%;
         float: left;
