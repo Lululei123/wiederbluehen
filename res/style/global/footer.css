@@ -1,0 +1,11 @@
+footer {
+    background-color: #000000cf;
+    color: var(--background-color);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer h3,footer a{
+    color: #75ce7c;
+}

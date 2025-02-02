@@ -1,0 +1,30 @@
+main div:first-child{
+   margin-top: 1rem;
+}
+
+.entry{
+    
+    background-color: #0000002f;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    margin-left: 50px;
+    width: calc(100% - 100px);
+}
+.entry div:first-child{
+    margin-top: 0;
+    text-align: center;
+    padding-left: 1rem;
+}
+
+.entry div:last-child{
+    text-align: center;
+    padding-bottom: 7px;
+    margin-bottom: 0;
+}
+.text{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.more_info{
+    border-top: 1px dashed var(--accent-color);
+}
