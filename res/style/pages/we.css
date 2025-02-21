@@ -1,3 +1,10 @@
+.headline-container {
+  text-align: center;
+  margin-top: 2rem;
+  border-bottom: dashed 2px var(--accent-color);
+  margin-bottom: 1rem;
+}
+
 main div:first-child {
   margin-top: 1rem;
 }
